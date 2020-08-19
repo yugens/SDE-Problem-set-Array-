@@ -1,4 +1,4 @@
-//My Solution with time complexity o(n) and space complexity o(n)
+//Brute force approach with time complexity o(n) and space complexity o(n)
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -19,7 +19,7 @@ public:
 };
 
 
-//Another approach using (xor property) having time complexity o(n) and space complexity o(n)
+//Better approach using (xor property) having time complexity o(n) and space complexity o(n)
 
 vector<int> Solution::repeatedNumber(const vector<int> &A) {
     int n=A.size();
