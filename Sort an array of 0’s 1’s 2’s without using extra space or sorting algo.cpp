@@ -9,7 +9,7 @@ public:
     }
 };
 
-//Now , the optimized solution in time complexity o(n) and space complexity o(1)
+//Now , the optimized solution in time complexity o(n) and space complexity o(1) commonly known as "DUTCH NATIONAL FLAG ALGORITHM'
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
