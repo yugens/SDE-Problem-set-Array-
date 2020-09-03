@@ -46,7 +46,7 @@ int main()
  return 0;
  }
  
- //Now , the code with most optimised approach having time complexity o(nlog(n)) commonly known as "Insertion Sort Algorithm"
+ //Now , the code with most optimised approach having time complexity o(nlog(n)) based on "Insertion Sort Algorithm"
  
  #include<bits/stdc++.h>
 typedef long long int ll;
