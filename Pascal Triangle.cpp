@@ -1,6 +1,12 @@
 //If it is only asked to find the element of nth row and cth column of a pascal's triangle , then the simple approach will be to find { (n-1)C(c-1) }.
 //with a time complexity of o(n) and space complexity of o(1).
 
+//To find the nth row only use 
+for(int i=0;i<k;i++)
+{
+    res*=(n-i);
+    res/=(i+1);
+}
 
 //Now, to find the whole row and column of a pascal's triangle.
 //Time complexity o(n) and space complexity also o(n).
