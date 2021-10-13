@@ -2,10 +2,10 @@
 //with a time complexity of o(n) and space complexity of o(1).
 
 //To find the nth row only use 
-for(int i=0;i<k;i++)
+for(int i=1;i<=k;i++)
 {
-    res*=(n-i);
-    res/=(i+1);
+    res*=(k-i+1);
+    res/=(i);
 }
 
 //Now, to find the whole row and column of a pascal's triangle.
