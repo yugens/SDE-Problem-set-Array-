@@ -4,7 +4,7 @@
 //To find the nth row only use 
 for(int i=1;i<=k;i++)
 {
-    res*=(k-i+1);
+    res*=(n-i+1);
     res/=(i);
 }
 
